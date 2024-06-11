@@ -24,7 +24,7 @@ import com.ec.model.Cart;
 
 @SpringBootTest
 public class CartControllerTest {
-	/*
+
 	private static final String BASE_URL = "http://localhost:8080";
 	private static final String CART_URL = BASE_URL + "/cart";
 	private static final String ARTICLES_URL = BASE_URL + "/articles";
@@ -361,5 +361,5 @@ public class CartControllerTest {
 	    Double expectedTotalPrice = 14000.00;
 	    assertEquals(expectedTotalPrice, actualTotalPrice);
 	}
-*/
+
 }
