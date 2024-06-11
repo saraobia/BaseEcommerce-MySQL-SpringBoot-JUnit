@@ -1,0 +1,11 @@
+package com.ec.model.enums;
+
+public enum StatusRegistration {
+	 SIGNED_UP_SUCCESFULLY
+	 , SIGNED_OFF_SUCCESFULLY
+	 , SIGNED_OFF_UNSUCCESFULLY
+	 , USER_NOT_FOUND
+	 , ALREADY_SIGNED_UP
+	 , WRONG_MAIL
+	 , WRONG_PASSWORD
+}
