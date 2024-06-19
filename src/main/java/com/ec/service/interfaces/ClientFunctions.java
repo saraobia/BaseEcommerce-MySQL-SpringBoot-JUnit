@@ -11,7 +11,7 @@ import com.ec.model.Client;
 
 public interface ClientFunctions {
 	boolean addClient(Client client) throws ClientAlreadyExistsException, ClientOperationException;
-	Optional<Client> getClient(String idClient) throws ClientNotFoundException ;
+	Optional<Client> getClient(String idClient) throws ClientNotFoundException;
 	boolean deleteClient(String idClient) throws ClientNotFoundException ;
 	boolean updateClient(Client client) throws ClientNotFoundException ;
 	List<Client> getAllClient();
